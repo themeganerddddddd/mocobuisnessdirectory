@@ -1,0 +1,93 @@
+.directory-hero {
+  position: relative;
+  padding: 76px 0 58px;
+  background: #263b42 url('assets/blvd-44.jpg') center 46% / cover no-repeat;
+  isolation: isolate;
+}
+
+.directory-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: rgba(10, 24, 31, 0.6);
+}
+
+.directory-hero h1 {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 59px;
+  line-height: 1.15;
+  letter-spacing: 1.6px;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.15);
+}
+
+.directory-hero .filters {
+  margin-top: 46px;
+  padding: 25px 28px;
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  border-radius: 3px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.16);
+}
+
+.directory-section {
+  padding-top: 26px;
+}
+
+.directory-section .industry-tabs {
+  margin-top: 0;
+}
+
+.results-toolbar .download-link {
+  margin-right: 20px;
+  padding-bottom: 0;
+  border-bottom: 0;
+  gap: 8px;
+}
+
+@media (max-width: 1050px) {
+  .directory-hero .filters {
+    padding: 22px;
+  }
+}
+
+@media (max-width: 760px) {
+  .directory-hero {
+    padding: 54px 0 36px;
+    background-position: 56% center;
+  }
+
+  .directory-hero h1 {
+    font-size: 43px;
+    letter-spacing: 1px;
+  }
+
+  .directory-hero .filters {
+    margin-top: 32px;
+    padding: 18px;
+  }
+
+  .directory-section {
+    padding-top: 22px;
+  }
+
+  .results-toolbar {
+    align-items: center;
+  }
+
+  .results-toolbar .download-link {
+    display: none;
+  }
+}
+
+@media (max-width: 430px) {
+  .directory-hero {
+    padding-top: 44px;
+  }
+
+  .directory-hero h1 {
+    font-size: 35px;
+    letter-spacing: 0.5px;
+  }
+}

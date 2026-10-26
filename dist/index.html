@@ -3,15 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Business Directory | Montgomery County, Maryland</title>
+  <title>Member Directory | Montgomery County, Maryland</title>
   <meta name="description" content="Discover 50 life sciences, satellite, defense and technology businesses with a Montgomery County, Maryland presence. Explore by industry or city.">
   <meta name="theme-color" content="#152b36">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="hero.css">
   <script src="app.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#directory">Skip to directory</a>
-  <div class="county-bar"><div class="container"><span>Montgomery County, Maryland</span><span class="edition">The business directory · First edition</span></div></div>
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="./" aria-label="Montgomery Business Directory home">
@@ -23,29 +23,25 @@
     </div>
   </header>
   <main>
-    <section class="hero">
+    <section class="directory-hero" id="directory" aria-labelledby="directory-title">
       <div class="container">
-        <div class="eyebrow breadcrumb">Montgomery County <span aria-hidden="true">/</span> Business Directory</div>
-        <div class="hero-row"><div><h1>Business Directory<span class="gold-dot">.</span></h1><p>Discover the companies shaping Montgomery County. <br>Explore life sciences, satellite, defense, and technology.</p></div><div class="edition-count"><strong>50</strong><span>Local businesses<br>One connected county</span></div></div>
-        <div class="hero-bottom"><span><i class="location-dot" aria-hidden="true"></i> Montgomery County, Maryland</span><span>Local offices &amp; facilities · Reviewed October 2026</span></div>
-      </div>
-    </section>
-    <section class="directory-section container" id="directory" aria-labelledby="directory-title">
-      <div class="section-heading"><div><span class="eyebrow">Find your next connection</span><h2 id="directory-title">Explore our business community</h2></div><a class="download-link" href="business-directory.csv" download>Download directory <span aria-hidden="true">↓</span></a></div>
-      <form id="filters" class="filters" role="search" aria-label="Find a business">
+        <h1 id="directory-title">Member Directory</h1>
+        <form id="filters" class="filters" role="search" aria-label="Find a business">
         <div class="filter-field"><label for="industry">Industry</label><select id="industry" name="industry"><option value="">All industries</option><option>Life Sciences</option><option>Satellite</option><option>Defense</option><option>Technology</option></select></div>
         <div class="filter-field"><label for="city">City / community</label><select id="city" name="city"><option value="">All locations</option></select></div>
         <div class="filter-field keyword"><label for="keyword">Keyword</label><input id="keyword" name="q" type="search" placeholder="Company name or specialty" autocomplete="off"></div>
         <button class="search-button" type="submit"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg>Search</button>
-      </form>
+        </form>
+      </div>
+    </section>
+    <section class="directory-section container" aria-label="Directory results">
       <div class="industry-tabs" id="industries" role="group" aria-label="Browse industries"></div>
-      <div class="results-toolbar"><p id="results-count" role="status" aria-live="polite">Loading businesses…</p><div class="sort-controls"><button id="clear-filters" class="text-button" hidden>Clear filters <span aria-hidden="true">×</span></button><label for="sort">Sort by</label><select id="sort"><option value="name">Name: A–Z</option><option value="name-desc">Name: Z–A</option><option value="industry">Industry</option><option value="city">Location</option></select></div></div>
+      <div class="results-toolbar"><p id="results-count" role="status" aria-live="polite">Loading businesses…</p><div class="sort-controls"><a class="download-link" href="business-directory.csv" download>Download directory <span aria-hidden="true">↓</span></a><button id="clear-filters" class="text-button" hidden>Clear filters <span aria-hidden="true">×</span></button><label for="sort">Sort by</label><select id="sort"><option value="name">Name: A–Z</option><option value="name-desc">Name: Z–A</option><option value="industry">Industry</option><option value="city">Location</option></select></div></div>
       <div id="company-grid" class="company-grid" aria-label="Business listings"></div>
       <div id="empty-state" class="empty-state" hidden><span class="empty-icon" aria-hidden="true">⌕</span><h3>No businesses found</h3><p>Try a different company name, specialty, industry, or location.</p><button class="button-outline" id="reset-empty">Show all businesses</button></div>
       <div id="pagination" class="pagination" aria-label="Directory pages"></div>
       <noscript><p>Enable JavaScript to search the directory, or <a href="business-directory.csv">download all 50 listings</a>.</p></noscript>
     </section>
-    <section class="county-note"><div class="container note-inner"><div class="note-number">04<span>Industries</span></div><div><span class="eyebrow">Rooted here. Connected everywhere.</span><h2>A county of possibility.</h2><p>From advances in human health to new frontiers in space and technology,<br>meet businesses with a place in Montgomery County.</p></div><a class="button-outline" href="#directory">Explore the directory <span aria-hidden="true">↑</span></a></div></section>
   </main>
   <footer><div class="container footer-top"><a class="brand footer-brand" href="./"><span>Montgomery<span class="brand-sub">Business Directory</span></span></a><p>A curated collection of businesses with offices or facilities<br>in Montgomery County, Maryland.</p><button class="text-button" data-open-about>About this directory <span aria-hidden="true">↗</span></button></div><div class="container footer-bottom"><span>Montgomery County, Maryland · 2026</span><span>Independent business directory</span></div></footer>
   <dialog id="about-dialog" aria-labelledby="about-title"><button class="dialog-close" aria-label="Close about directory">×</button><span class="eyebrow">About this collection</span><h2 id="about-title">A local business directory.</h2><p>This first edition features 50 businesses selected from the supplied company list across life sciences, satellite, defense, and technology.</p><p>Each listing has a documented Montgomery County, Maryland office or facility. A business may have headquarters or additional operations elsewhere. Public company and government sources were reviewed on October 26, 2026.</p><p>Company names link directly to their official websites. Descriptions are short summaries of their work. Logos belong to their respective owners.</p><p class="dialog-footnote">This is an independent directory. Inclusion does not imply chamber membership, endorsement, or affiliation with Montgomery County government.</p><button class="search-button close-about">Back to the directory</button></dialog>
