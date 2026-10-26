@@ -1,0 +1,495 @@
+[
+  {
+    "name": "Abacus Technology",
+    "industry": "Technology",
+    "specialty": "IT & systems engineering",
+    "description": "Provides information technology, systems engineering, communications, and scientific research services for government organizations, with expertise in cybersecurity and infrastructure support.",
+    "website": "https://www.abacustech.com/",
+    "city": "Chevy Chase",
+    "number": 1,
+    "logo": "assets/logos/abacus-technology.png"
+  },
+  {
+    "name": "AbelZeta Pharma",
+    "industry": "Life Sciences",
+    "specialty": "Cell therapies",
+    "description": "Develops immune cell therapies for cancer and inflammatory and immunological diseases, with a Rockville center supporting its global research and development programs.",
+    "website": "https://www.abelzeta.com/",
+    "city": "Rockville",
+    "number": 2
+  },
+  {
+    "name": "ABL, Inc.",
+    "industry": "Life Sciences",
+    "specialty": "Biologics manufacturing and research",
+    "description": "Provides contract manufacturing and laboratory research services for vaccines and therapies, including process development, GMP production, analytical testing, and immunology support.",
+    "website": "https://ablinc.com/",
+    "city": "Rockville",
+    "number": 3,
+    "logo": "assets/logos/abl-inc.png"
+  },
+  {
+    "name": "AeroVironment",
+    "industry": "Defense",
+    "specialty": "Autonomous systems & defense technology",
+    "description": "Develops autonomous systems and defense technologies across air, land, sea, space and cyber, supported by a research and manufacturing facility in Germantown.",
+    "website": "https://www.avinc.com/",
+    "city": "Germantown",
+    "number": 4,
+    "logo": "assets/logos/aerovironment.svg"
+  },
+  {
+    "name": "AgencyQ",
+    "industry": "Technology",
+    "specialty": "Digital experience consulting",
+    "description": "Designs digital experiences and integrates strategy, data, artificial intelligence, and web platforms to help organizations improve customer engagement and business operations.",
+    "website": "https://www.agencyq.com/",
+    "city": "Bethesda",
+    "number": 5
+  },
+  {
+    "name": "AgNovos Bioscience",
+    "industry": "Life Sciences",
+    "specialty": "Bone health medical technology",
+    "description": "Develops investigational treatments for osteoporosis and bone fragility, including a local bone enhancement procedure intended to improve the strength of treated bones.",
+    "website": "https://www.agnovos.com/",
+    "city": "Rockville",
+    "number": 6
+  },
+  {
+    "name": "AITHERAS",
+    "industry": "Technology",
+    "specialty": "Data, cloud & cybersecurity",
+    "description": "Delivers data analytics, cloud services, application development, cybersecurity, litigation support, and records management solutions for federal agencies and commercial organizations.",
+    "website": "https://www.aitheras.com/",
+    "city": "Rockville",
+    "number": 7,
+    "logo": "assets/logos/aitheras.png",
+    "darkLogo": true
+  },
+  {
+    "name": "AstraZeneca",
+    "industry": "Life Sciences",
+    "specialty": "Biopharmaceutical research and development",
+    "description": "Discovers and develops medicines at its Gaithersburg research campus, which combines laboratories, development, manufacturing, and commercialization capabilities for global biopharmaceutical programs.",
+    "website": "https://www.astrazeneca.com/",
+    "city": "Gaithersburg",
+    "number": 8,
+    "logo": "assets/logos/astrazeneca.svg"
+  },
+  {
+    "name": "Autolus",
+    "industry": "Life Sciences",
+    "specialty": "CAR T cell therapies",
+    "description": "Develops and commercializes programmed T cell therapies for cancer and autoimmune diseases, using cell engineering technologies to create precisely targeted immunotherapies.",
+    "website": "https://www.autolus.com/",
+    "city": "Gaithersburg",
+    "number": 9
+  },
+  {
+    "name": "Automated Precision",
+    "industry": "Technology",
+    "specialty": "Precision measurement & metrology",
+    "description": "Provides laser trackers, precision measurement systems and metrology services for manufacturing, helping aerospace, automotive and industrial customers inspect parts and calibrate equipment.",
+    "website": "https://apimetrology.com/",
+    "city": "Rockville",
+    "number": 10,
+    "logo": "assets/logos/api-metrology.png"
+  },
+  {
+    "name": "BAE Systems",
+    "industry": "Defense",
+    "specialty": "Defense engineering & technical services",
+    "description": "Develops and supports defense, aerospace, security and technology systems, with a Rockville operation serving government customers through engineering and technical services.",
+    "website": "https://www.baesystems.com/",
+    "city": "Rockville",
+    "number": 11
+  },
+  {
+    "name": "Billingsley Aerospace & Defense",
+    "industry": "Defense",
+    "specialty": "Magnetic sensors & calibration",
+    "description": "Designs and manufactures fluxgate magnetometers, gradiometers and magnetic calibration systems for spacecraft, military and research applications, with a laboratory in Brookeville.",
+    "website": "https://magnetometer.com/",
+    "city": "Brookeville",
+    "number": 12,
+    "logo": "assets/logos/billingsley.png"
+  },
+  {
+    "name": "BIOQUAL",
+    "industry": "Life Sciences",
+    "specialty": "Preclinical contract research",
+    "description": "Provides preclinical research services using in vivo models and in vitro assays, supporting infectious disease, immunology, and oncology programs for commercial and government clients.",
+    "website": "https://bioqual.com/",
+    "city": "Rockville",
+    "number": 13,
+    "logo": "assets/logos/bioqual.png",
+    "darkLogo": true
+  },
+  {
+    "name": "Dataprise",
+    "industry": "Technology",
+    "specialty": "Managed IT & cybersecurity",
+    "description": "Supports organizations with managed IT services, cybersecurity, cloud infrastructure, disaster recovery, and technology consulting, including help desk and field support.",
+    "website": "https://www.dataprise.com/",
+    "city": "Rockville",
+    "number": 14,
+    "logo": "assets/logos/dataprise.png"
+  },
+  {
+    "name": "DelCor Technology Solutions",
+    "industry": "Technology",
+    "specialty": "Nonprofit technology services",
+    "description": "Helps associations and nonprofits align technology with their missions through managed IT, digital strategy, technology assessments, cloud services, and systems consulting.",
+    "website": "https://www.delcor.com/",
+    "city": "Silver Spring",
+    "number": 15,
+    "logo": "assets/logos/delcor.svg"
+  },
+  {
+    "name": "designDATA",
+    "industry": "Technology",
+    "specialty": "Managed IT & staff training",
+    "description": "Provides managed IT, cybersecurity, cloud and network management, hardware services, and staff training, with a focus on associations and nonprofit organizations.",
+    "website": "https://www.designdata.com/",
+    "city": "Gaithersburg",
+    "number": 16,
+    "logo": "assets/logos/designdata.svg"
+  },
+  {
+    "name": "DrFirst",
+    "industry": "Technology",
+    "specialty": "Healthcare software",
+    "description": "Develops medication management technology, including electronic prescribing, medication history, prior authorization, prescription engagement, and tools that support healthcare information exchange.",
+    "website": "https://drfirst.com/",
+    "city": "Rockville",
+    "number": 17,
+    "logo": "assets/logos/drfirst.png"
+  },
+  {
+    "name": "Emergent BioSolutions",
+    "industry": "Life Sciences",
+    "specialty": "Public health preparedness",
+    "description": "Develops and supplies medical countermeasures for biological threats and opioid overdose emergencies, with corporate and science operations based in Gaithersburg.",
+    "website": "https://www.emergentbiosolutions.com/",
+    "city": "Gaithersburg",
+    "number": 18
+  },
+  {
+    "name": "Emmes",
+    "industry": "Life Sciences",
+    "specialty": "Clinical research services",
+    "description": "Provides clinical trial operations, biostatistics, data management, regulatory, and safety services for biopharmaceutical, government, nonprofit, and academic research sponsors worldwide.",
+    "website": "https://theemmesgroup.com/",
+    "city": "Rockville",
+    "number": 19,
+    "logo": "assets/logos/emmes.png"
+  },
+  {
+    "name": "fusionSpan",
+    "industry": "Technology",
+    "specialty": "CRM & systems integration",
+    "description": "Implements and supports Salesforce and association management systems, providing digital strategy, integrations, managed services, and training for nonprofits and associations.",
+    "website": "https://www.fusionspan.com/",
+    "city": "Rockville",
+    "number": 20,
+    "logo": "assets/logos/fusionspan.svg"
+  },
+  {
+    "name": "GeneDx",
+    "industry": "Life Sciences",
+    "specialty": "Genomic diagnostics",
+    "description": "Provides exome and genome sequencing with clinical interpretation to help diagnose rare and inherited conditions, supported by a clinical laboratory in Gaithersburg.",
+    "website": "https://www.genedx.com/",
+    "city": "Gaithersburg",
+    "number": 21,
+    "logo": "assets/logos/genedx.svg"
+  },
+  {
+    "name": "HiLabs",
+    "industry": "Technology",
+    "specialty": "Healthcare data & AI",
+    "description": "Builds artificial intelligence software that cleans, standardizes, and enriches healthcare data, supporting provider directories, network management, clinical information, and operational workflows.",
+    "website": "https://www.hilabs.com/",
+    "city": "Bethesda",
+    "number": 22,
+    "logo": "assets/logos/hilabs.svg"
+  },
+  {
+    "name": "Hughes Systique",
+    "industry": "Technology",
+    "specialty": "Digital & product engineering",
+    "description": "Offers software and product engineering, artificial intelligence, cloud platforms, wireless networking, embedded systems, and managed technology services across commercial and public sectors.",
+    "website": "https://www.hsc.com/",
+    "city": "Rockville",
+    "number": 23,
+    "logo": "assets/logos/hughes-systique.png"
+  },
+  {
+    "name": "Infinite Computer Solutions",
+    "industry": "Technology",
+    "specialty": "Digital engineering & IT",
+    "description": "Provides digital engineering, application services, cloud modernization, artificial intelligence, cybersecurity, data analytics, and automation for healthcare, finance, telecommunications, and other industries.",
+    "website": "https://www.infinite.com/",
+    "city": "Rockville",
+    "number": 24,
+    "logo": "assets/logos/infinite.svg",
+    "darkLogo": true
+  },
+  {
+    "name": "Infosys Public Services",
+    "industry": "Technology",
+    "specialty": "Public sector technology",
+    "description": "Helps public sector organizations modernize services through application development, cloud platforms, data analytics, cybersecurity, and technology solutions for government programs.",
+    "website": "https://www.infosyspublicservices.com/",
+    "city": "Rockville",
+    "number": 25
+  },
+  {
+    "name": "Intellian",
+    "industry": "Satellite",
+    "specialty": "Satellite antennas & terminals",
+    "description": "Develops satellite antennas and communications terminals that connect maritime, enterprise and government users, with an Advanced Development Center in Rockville.",
+    "website": "https://intelliantech.com/",
+    "city": "Rockville",
+    "number": 26,
+    "logo": "assets/logos/intellian.svg"
+  },
+  {
+    "name": "LCG",
+    "industry": "Technology",
+    "specialty": "Federal IT & modernization",
+    "description": "Supports federal agencies with application services, digital government solutions, managed infrastructure, cybersecurity, grants management, and technology consulting focused on mission delivery.",
+    "website": "https://www.lcginc.com/",
+    "city": "Rockville",
+    "number": 27,
+    "logo": "assets/logos/lcg.png"
+  },
+  {
+    "name": "Leonardo DRS",
+    "industry": "Defense",
+    "specialty": "Tactical radar & force protection",
+    "description": "Its DRS RADA Technologies business develops tactical radar and avionics for military protection, counter-drone applications, infrastructure security and surveillance from Germantown.",
+    "website": "https://www.leonardodrs.com/",
+    "city": "Germantown",
+    "number": 28
+  },
+  {
+    "name": "Lockheed Martin Integrated Systems",
+    "industry": "Defense",
+    "specialty": "Defense & aerospace systems",
+    "description": "A Lockheed Martin business within a defense and aerospace group that develops advanced systems, products and services for government and commercial customers.",
+    "website": "https://www.lockheedmartin.com/",
+    "city": "Bethesda",
+    "number": 29
+  },
+  {
+    "name": "MacroGenics",
+    "industry": "Life Sciences",
+    "specialty": "Antibody cancer therapies",
+    "description": "Develops antibody based cancer therapies, including antibody drug conjugates, bispecific checkpoint antibodies, and T cell engagers built using proprietary protein engineering platforms.",
+    "website": "https://www.macrogenics.com/",
+    "city": "Rockville",
+    "number": 30
+  },
+  {
+    "name": "MaxCyte",
+    "industry": "Life Sciences",
+    "specialty": "Cell engineering technology",
+    "description": "Supplies flow electroporation technology, scientific support, and gene editing assessment services that help researchers engineer cells for the development of advanced therapies.",
+    "website": "https://maxcyte.com/",
+    "city": "Rockville",
+    "number": 31
+  },
+  {
+    "name": "Meso Scale Diagnostics",
+    "industry": "Life Sciences",
+    "specialty": "Biomarker assays and instruments",
+    "description": "Develops assays, instruments, and multiplex measurement technology that help researchers analyze biomarkers in biological samples for medical research and drug development.",
+    "website": "https://www.mesoscale.com/",
+    "city": "Rockville",
+    "number": 32,
+    "logo": "assets/logos/meso-scale-diagnostics.png"
+  },
+  {
+    "name": "Mytonomy",
+    "industry": "Technology",
+    "specialty": "Patient education software",
+    "description": "Creates healthcare cloud software for video-based patient education and engagement, helping healthcare organizations deliver condition-specific information through a unified digital platform.",
+    "website": "https://www.mytonomy.com/",
+    "city": "Bethesda",
+    "number": 33,
+    "logo": "assets/logos/mytonomy.png"
+  },
+  {
+    "name": "Novavax",
+    "industry": "Life Sciences",
+    "specialty": "Vaccine technology",
+    "description": "Develops recombinant protein nanoparticle vaccine technology and the Matrix-M adjuvant, working with partners to advance vaccines against significant infectious disease threats.",
+    "website": "https://www.novavax.com/",
+    "city": "Gaithersburg",
+    "number": 34,
+    "logo": "assets/logos/novavax.svg",
+    "darkLogo": true
+  },
+  {
+    "name": "Optimal Networks",
+    "industry": "Technology",
+    "specialty": "Managed IT & CIO services",
+    "description": "Provides managed IT, technology strategy, assessments, and artificial intelligence consulting for law firms, associations, and consulting businesses, with ongoing technical support.",
+    "website": "https://www.optimalnetworks.com/",
+    "city": "Rockville",
+    "number": 35,
+    "logo": "assets/logos/optimal-networks.png",
+    "darkLogo": true
+  },
+  {
+    "name": "OSIbeyond",
+    "industry": "Technology",
+    "specialty": "IT, cybersecurity & compliance",
+    "description": "Combines managed IT, cybersecurity, cloud services, automation, and compliance support for businesses, nonprofits, associations, and government contractors, including CMMC readiness services.",
+    "website": "https://www.osibeyond.com/",
+    "city": "Rockville",
+    "number": 36,
+    "logo": "assets/logos/osibeyond.svg"
+  },
+  {
+    "name": "Planet Technologies",
+    "industry": "Technology",
+    "specialty": "Microsoft cloud consulting",
+    "description": "Delivers Microsoft consulting and technology services for public sector organizations, helping clients plan and implement cloud, security, collaboration, analytics, and business applications.",
+    "website": "https://go-planet.com/",
+    "city": "Gaithersburg",
+    "number": 37,
+    "logo": "assets/logos/planet-technologies.jpg"
+  },
+  {
+    "name": "Planetary Systems Corporation",
+    "industry": "Satellite",
+    "specialty": "Spacecraft separation systems",
+    "description": "A Rocket Lab business manufacturing satellite separation systems and flight mechanisms that release spacecraft and payloads, with production based in Silver Spring.",
+    "website": "https://rocketlabcorp.com/",
+    "city": "Silver Spring",
+    "number": 38
+  },
+  {
+    "name": "Precise Software Solutions",
+    "industry": "Technology",
+    "specialty": "Government software & cloud",
+    "description": "Modernizes government applications, cloud infrastructure, cybersecurity, data platforms, and digital experiences to help agencies improve operations and deliver public services.",
+    "website": "https://precise-soft.com/",
+    "city": "Rockville",
+    "number": 39,
+    "logo": "assets/logos/precise-software.png"
+  },
+  {
+    "name": "Precision for Medicine",
+    "industry": "Life Sciences",
+    "specialty": "Clinical trials and translational research",
+    "description": "Supports drug development through clinical trial services, biomarker strategies, laboratory testing, and biospecimen solutions, as part of Bethesda headquartered Precision Medicine Group.",
+    "website": "https://www.precisionformedicine.com/",
+    "city": "Bethesda",
+    "number": 40,
+    "logo": "assets/logos/precision-for-medicine.png"
+  },
+  {
+    "name": "QIAGEN",
+    "industry": "Life Sciences",
+    "specialty": "Molecular testing and research tools",
+    "description": "Provides kits, instruments, and bioinformatics that turn biological samples into molecular insights, supporting scientific research, clinical diagnostics, and applied testing workflows.",
+    "website": "https://www.qiagen.com/",
+    "city": "Germantown",
+    "number": 41,
+    "logo": "assets/logos/qiagen.png"
+  },
+  {
+    "name": "REGENXBIO",
+    "industry": "Life Sciences",
+    "specialty": "Gene therapy",
+    "description": "Develops gene therapies using its NAV technology platform, pursuing treatments designed to address serious diseases through the delivery of therapeutic genetic material.",
+    "website": "https://www.regenxbio.com/",
+    "city": "Rockville",
+    "number": 42,
+    "logo": "assets/logos/regenxbio.svg",
+    "darkLogo": true
+  },
+  {
+    "name": "Sanaria",
+    "industry": "Life Sciences",
+    "specialty": "Malaria vaccines",
+    "description": "Develops vaccines designed to protect against malaria, advancing a pipeline of complementary approaches to support global prevention and eventual malaria eradication.",
+    "website": "https://sanaria.com/",
+    "city": "Rockville",
+    "number": 43,
+    "logo": "assets/logos/sanaria.png"
+  },
+  {
+    "name": "Software Productivity Strategists",
+    "industry": "Technology",
+    "specialty": "Cybersecurity, cloud & AI",
+    "description": "Provides cybersecurity, cloud, artificial intelligence, automation, and technical training services, with solutions for government, healthcare, industrial, financial, and telecommunications organizations.",
+    "website": "https://www.spsnet.com/",
+    "city": "Rockville",
+    "number": 44,
+    "logo": "assets/logos/sps.png"
+  },
+  {
+    "name": "Supernus Pharmaceuticals",
+    "industry": "Life Sciences",
+    "specialty": "Neurology and psychiatry medicines",
+    "description": "Develops and commercializes medicines for central nervous system diseases, with a portfolio and research programs spanning neurological and psychiatric conditions.",
+    "website": "https://www.supernus.com/",
+    "city": "Rockville",
+    "number": 45,
+    "logo": "assets/logos/supernus-pharmaceuticals.svg"
+  },
+  {
+    "name": "Telesat",
+    "industry": "Satellite",
+    "specialty": "Satellite communications",
+    "description": "Provides satellite communications for broadcasters, telecommunications companies, enterprises and governments, with a North Bethesda office and engineering work supporting its satellite networks.",
+    "website": "https://www.telesat.com/",
+    "city": "North Bethesda",
+    "number": 46,
+    "logo": "assets/logos/telesat.png"
+  },
+  {
+    "name": "Tetracore",
+    "industry": "Life Sciences",
+    "specialty": "Infectious disease and biothreat diagnostics",
+    "description": "Creates molecular and immunological assays, reagents, and instruments for infectious disease and biological threat detection, serving laboratory, clinical, and preparedness applications.",
+    "website": "https://tetracore.com/",
+    "city": "Rockville",
+    "number": 47,
+    "logo": "assets/logos/tetracore.png"
+  },
+  {
+    "name": "TurningPoint Global Solutions",
+    "industry": "Technology",
+    "specialty": "Software & telecom services",
+    "description": "Develops software, integrates systems, and manages IT and telecommunications programs for government and commercial clients, including healthcare and telecom expense management.",
+    "website": "https://www.tpgsi.com/",
+    "city": "Rockville",
+    "number": 48,
+    "logo": "assets/logos/turningpoint.png"
+  },
+  {
+    "name": "United Therapeutics",
+    "industry": "Life Sciences",
+    "specialty": "Rare disease therapies and organ technology",
+    "description": "Develops therapies for pulmonary hypertension and other serious conditions, while advancing organ availability technologies from operations that include its Silver Spring campus.",
+    "website": "https://www.unither.com/",
+    "city": "Silver Spring",
+    "number": 49,
+    "logo": "assets/logos/united-therapeutics.png"
+  },
+  {
+    "name": "X-Wave Innovations",
+    "industry": "Defense",
+    "specialty": "Sensors & applied research",
+    "description": "Develops sensors, nondestructive testing, structural health monitoring, artificial intelligence and manufacturing technologies for defense, aerospace, energy and transportation customers from Gaithersburg.",
+    "website": "https://x-waveinnovations.com/",
+    "city": "Gaithersburg",
+    "number": 50
+  }
+]
