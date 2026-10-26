@@ -36,7 +36,8 @@
     "website": "https://www.avinc.com/",
     "city": "Germantown",
     "number": 4,
-    "logo": "assets/logos/aerovironment.svg"
+    "logo": "assets/logos/aerovironment.svg",
+    "darkLogo": true
   },
   {
     "name": "AgencyQ",
