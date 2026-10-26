@@ -12,7 +12,7 @@ The `Deploy directory to GitHub Pages` workflow publishes `dist/` whenever websi
 
 All styles, scripts, company data, CSV downloads, and logo paths are relative to the website directory, so the site works at the repository URL without a custom domain. Edit files in `dist/` and push to `main` to publish updates.
 
-The public dataset contains company names, official website links, paraphrased descriptions, industry, specialty, and community. Company names open their official websites. Logo files are hosted locally; remaining slots use clearly typographic initials.
+The public dataset contains company names, official website links, paraphrased descriptions, industry, specialty, and community. Company names open their official websites. Only official company logos are used. When a logo is unavailable or cannot load, its slot displays the full company name as plain text.
 
 Research was reviewed October 26, 2026. Each selected company was matched to its source workbook sheet and row. Company and government sources establish its county office or facility. Forty-eight addresses matched Montgomery County, Maryland (FIPS 24031) in the U.S. Census geocoder. The two Seneca Meadows addresses were checked against exact-address Montgomery County Council agreements because Census could not match those street addresses. The detailed verification CSV is retained separately outside the website.
 

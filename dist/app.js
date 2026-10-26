@@ -16,14 +16,14 @@ function filteredBusinesses(){
 function makeCard(c){
   const card = document.createElement('article');
   card.className = 'company-card industry-'+c.industry.toLowerCase().replaceAll(' ','-');
-  const initials = c.name.replace(/[^a-zA-Z0-9 ]/g,'').split(/\s+/).filter(Boolean).slice(0,2).map(w=>w[0]).join('');
-  const fallback = `<span class="company-monogram">${escape(initials)}<small>${escape(c.industry)}</small></span>`;
+  const fallback = `<span class="company-name-fallback">${escape(c.name)}</span>`;
   const words=c.name.split(' '), tail=words.pop();
   const linkedName=(words.length?escape(words.join(' '))+' ':'')+`<span class="name-tail">${escape(tail)} <span class="external-arrow" aria-hidden="true">↗</span></span>`;
   card.innerHTML = `<div class="logo-panel"><span class="card-number">${String(c.number).padStart(2,'0')}</span>${c.logo ? `<img src="${escape(c.logo)}" alt="${escape(c.name)} logo" loading="lazy">` : fallback}</div><div class="card-body"><span class="card-label">${escape(c.industry)}</span><h3><a href="${escape(c.website)}" target="_blank" rel="noopener noreferrer" aria-label="${escape(c.name)} official website (opens in a new tab)">${linkedName}</a></h3><p class="card-description">${escape(c.description)}</p><div class="card-meta"><span class="city-label">${pin}${escape(c.city)}, MD</span><span class="specialty-label">${escape(c.specialty)}</span></div></div>`;
-  if(c.darkLogo)card.querySelector('.logo-panel').classList.add('dark-logo');
+  const logoPanel = card.querySelector('.logo-panel');
+  if(c.logo && c.darkLogo)logoPanel.classList.add('dark-logo');
   const img = card.querySelector('img');
-  if(img) img.addEventListener('error',()=>{img.outerHTML=fallback},{once:true});
+  if(img) img.addEventListener('error',()=>{logoPanel.classList.remove('dark-logo');img.outerHTML=fallback},{once:true});
   return card;
 }
 function render(){
